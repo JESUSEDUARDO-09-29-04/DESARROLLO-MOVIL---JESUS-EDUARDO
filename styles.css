@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+}
+
+.principal {
+    background:black (255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #58BD9F 50%, #87A7D0 50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.contenedor-imagen {
+    margin-top: 60px;
+}
+
+.contenedor-imagen img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.datos-personales {
+    margin-top: 20px;
+    text-align:center;
+}
